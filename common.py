@@ -1,3 +1,5 @@
+from typing import Any
+
 
 def init_simple_qwen_max():
     """
@@ -24,7 +26,7 @@ def init_simple_qwen_max():
     return model
 
 
-def init_simple_dashscope_model(model):
+def init_simple_dashscope_model(model, extra_body: dict[str, Any] = None):
     """
     获取DASHSCOPE模型
     :return:
@@ -44,6 +46,7 @@ def init_simple_dashscope_model(model):
         model_provider='openai',
         api_key=DASHSCOPE_API_KEY,
         base_url=DASHSCOPE_BASE_URL,
+        extra_body=extra_body
     )
 
     return model
