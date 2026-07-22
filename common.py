@@ -26,7 +26,7 @@ def init_simple_qwen_max():
     return model
 
 
-def init_simple_dashscope_model(model, extra_body: dict[str, Any] = None):
+def init_simple_dashscope_model(model, profile: dict[str, Any] = None, extra_body: dict[str, Any] = None):
     """
     获取DASHSCOPE模型
     :return:
@@ -46,6 +46,7 @@ def init_simple_dashscope_model(model, extra_body: dict[str, Any] = None):
         model_provider='openai',
         api_key=DASHSCOPE_API_KEY,
         base_url=DASHSCOPE_BASE_URL,
+        profile=profile,
         extra_body=extra_body
     )
 
