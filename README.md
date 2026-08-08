@@ -1,5 +1,11 @@
-# langchainv1.2-study
+# LangChain和LangGraph
 
-# 资料来源
+## langchainv1.2-study
+
+### 资料来源
 尚硅谷在线公开视频
 https://www.bilibili.com/video/BV1rv7A6oEeP?spm_id_from=333.788.videopod.episodes&vd_source=3643c4d9157c738bd25b2428a9d7c514&p=11
+
+## LangGraph
+### 资料来源
+尚硅谷在线视频：https://www.bilibili.com/video/BV1z3NY66EY1?spm_id_from=333.788.videopod.episodes&vd_source=3643c4d9157c738bd25b2428a9d7c514&p=9
