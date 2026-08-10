@@ -44,7 +44,7 @@ def init_simple_dashscope_model(model, profile: dict[str, Any] = None, extra_bod
     from pathlib import Path
 
     # 从.env文件中加载环境变量
-    load_dotenv(Path('../.env'), override=True)
+    load_dotenv(Path(__file__).parent / '.env', override=True)
     DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY")
     DASHSCOPE_BASE_URL = os.getenv("DASHSCOPE_BASE_URL")
 
