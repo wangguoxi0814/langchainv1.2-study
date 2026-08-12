@@ -26,7 +26,7 @@ def init_simple_qwen_max():
     return model
 
 
-def init_simple_dashscope_model(model, profile: dict[str, Any] = None, extra_body: dict[str, Any] = None):
+def init_simple_dashscope_model(model = 'qwen3.7-plus', profile: dict[str, Any] = None, extra_body: dict[str, Any] = None):
     """
     获取DASHSCOPE模型
 
