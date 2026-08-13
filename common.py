@@ -85,7 +85,7 @@ def load_postgresql_url():
     from pathlib import Path
     from dotenv import load_dotenv
 
-    load_dotenv(Path('../.env'), override=True)
+    load_dotenv(Path(__file__).parent / '.env', override=True)
 
     postgres_db_url = os.getenv("POSTGRES_DB_URL")
     return postgres_db_url
