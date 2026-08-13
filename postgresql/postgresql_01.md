@@ -1,5 +1,6 @@
 # PostgreSQL
 
+
 ### JSONB操作
 #### 取值
     - metadata -> 'step'        -- 按 key 取，返回 jsonb
