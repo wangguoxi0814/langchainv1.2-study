@@ -27,3 +27,14 @@
 - [ ] 回顾LangChain的Human-in-the-loop的实现
 - [ ] 如何查询出异常中断的图
 - [ ] PostgreSQL的JSONB操作
+
+## 20260813星期四深圳
+- [ ] 回顾字符串的strip()是干嘛的
+- [ ] 工具调用不是需要传入tool_call的call_id吗？
+- [ ] 回顾一下LangChain的Middleware
+
+## 20260814星期五深圳
+- [ ] 手动实现工具调用所列出来的缺点一一弄清楚
+- [ ] python的自动注入原理，比如工具的函数有ToolRuntime，自动注入
+- [ ] 恢复langchain的wrap_tool_call
+- [ ] 回顾一下LangChain的流式输出
